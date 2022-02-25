@@ -30,6 +30,18 @@ add-zsh-hook preexec show_command
 #
 set -e
 
+# ###########################################################################
+# Subtraction.
+#
+
+python3 rpn.py "150 20 - p" | expect 130
+python3 rpn.py "150 20 - 7 - p" | expect 123
+python3 rpn.py "150 180 + 16 7 - - p" | expect 321
+
+# ###########################################################################
+# Addition.
+#
+
 # The master branch should still contain this commit (which was in master to
 # start with)...
 #
@@ -45,5 +57,9 @@ python3 rpn.py <<EOF | expect 55
 1 2 3 4 5 6 7 8 9 10
 + + + + + + + + + p
 EOF
+
+# ###########################################################################
+# Done (okay).
+#
 
 print "okay"

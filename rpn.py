@@ -2,6 +2,7 @@
 
 import sys
 import rpn_add
+import rpn_subtract
 
 stack = []
 
@@ -17,6 +18,11 @@ def evaluate(text):
          a = try_pop()
          b = try_pop()
          stack.append(rpn_add.add(a, b))
+
+      elif token == "-":
+         b = try_pop()
+         a = try_pop()
+         stack.append(rpn_subtract.subtract(a, b))
 
       elif token == "p":
          v = try_pop()
