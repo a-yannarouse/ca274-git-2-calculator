@@ -10,7 +10,7 @@ For example:
 5 3 2 + *
 ```
 
-for which the answer is `15`.
+for which the answer is `25`.
 
 This repo contains an RPN calculator implementation which is initially limited to addition only, but which you
 will extend to implement additional operators.
