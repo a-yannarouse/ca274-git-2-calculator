@@ -17,3 +17,25 @@ will extend to implement further operators.
 
 The calculator is written in python, and you should probably begin by reviewing the code, running the
 calculator, and running the test script.
+
+## Task 1
+
+The current implementation is broken:
+
+```console
+$ python3 rpn.py 3 4 + 2 + p
+11
+$
+```
+
+(The correct answer should, of course, be 9.)
+
+Fix this bug.
+
+When you are done, the test script `test.zsh` should succeed.
+
+```console
+$ zsh ./test.zsh
+...
+okay
+$
