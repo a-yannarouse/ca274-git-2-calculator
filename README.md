@@ -57,12 +57,12 @@ $
 
 This repo contains a branch `rpn-subtract` which implements the subtract operator, `-`.
 
-Merge that branch into `master` and make such all of the tests (`test.zsh`) are working.
+Merge that branch into `master` and make sure all of the tests (`test.zsh`) are working.
 
 ## Task 3
 
 This also repo contains a branch `rpn-multiply` which implements the multiplication operator, `*`.
 
-Merge that branch into `master` and make such all of the tests (`test.zsh`) are working.
+Merge that branch into `master` and make sure all of the tests (`test.zsh`) are working.
 
 You should expect to encounter merge conflicts.
