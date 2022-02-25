@@ -34,6 +34,11 @@ set -e
 # Subtraction.
 #
 
+# This is the key commit from the rpn-subtract; when you're done, it should be
+# in master too.
+#
+git merge-base --is-ancestor 7c1163a master
+
 python3 rpn.py "150 20 - p" | expect 130
 python3 rpn.py "150 20 - 7 - p" | expect 123
 python3 rpn.py "150 180 + 16 7 - - p" | expect 321
