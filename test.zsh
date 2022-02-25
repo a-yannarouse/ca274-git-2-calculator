@@ -30,6 +30,11 @@ add-zsh-hook preexec show_command
 #
 set -e
 
+# The master branch should still contain this commit (which was in master to
+# start with)...
+#
+git merge-base --is-ancestor 67c2b74 master
+
 # Test addition, passing calculation as command-line arguments.
 #
 python3 rpn.py "10 20 + 93 + p" | expect 123
