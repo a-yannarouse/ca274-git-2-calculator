@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-import add
+import rpn_add
 
 stack = []
 
@@ -16,7 +16,7 @@ def evaluate(text):
       if token == "+":
          a = try_pop()
          b = try_pop()
-         stack.append(add.add(a, b))
+         stack.append(rpn_add.add(a, b))
 
       elif token == "p":
          v = try_pop()
