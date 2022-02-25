@@ -31,7 +31,7 @@ $ python3 rpn.py 3 4 + 2 + p
 $
 ```
 
-(The correct answer should, of course, be 9.)
+(The correct answer should, of course, be `9`.)
 
 Fix this bug.
 
