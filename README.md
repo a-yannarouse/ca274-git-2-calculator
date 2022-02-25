@@ -36,6 +36,8 @@ When you are done, the test script `test.zsh` should succeed.
 
 ```console
 $ zsh ./test.zsh
-...
+.
+.
+.
 okay
 $
