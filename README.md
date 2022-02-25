@@ -20,7 +20,10 @@ calculator, and running the test script.
 
 ## Task 1
 
-The current implementation is broken:
+In the initial implementation:
+
+- the only operators are `+` (addition) and `p` (print), and
+- the `+` operator is broken:
 
 ```console
 $ python3 rpn.py 3 4 + 2 + p
