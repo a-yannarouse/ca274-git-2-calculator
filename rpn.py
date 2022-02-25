@@ -2,6 +2,7 @@
 
 import sys
 import rpn_add
+import rpn_multiply
 
 stack = []
 
@@ -17,6 +18,11 @@ def evaluate(text):
          a = try_pop()
          b = try_pop()
          stack.append(rpn_add.add(a, b))
+
+      elif token == "*":
+         a = try_pop()
+         b = try_pop()
+         stack.append(rpn_multiply.multiply(a, b))
 
       elif token == "p":
          v = try_pop()
