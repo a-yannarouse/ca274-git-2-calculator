@@ -51,3 +51,16 @@ $ zsh ./test.zsh
 .
 okay
 $
+```
+
+## Task 2
+
+This repo contains a branch `rpn-subtract` which implements the "subtract" operator, `-`.
+
+Merge that branch into `master` and make such all of the tests (`test.zsh`) are working.
+
+## Task 3
+
+This repo contains a branch `rpn-multiply` which implements the "multiplication" operator, `*`.
+
+Merge that branch into `master` and make such all of the tests (`test.zsh`) are working.
