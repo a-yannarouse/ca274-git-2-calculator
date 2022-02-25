@@ -46,4 +46,8 @@ python3 rpn.py <<EOF | expect 55
 + + + + + + + + + p
 EOF
 
+python3 rpn.py "90 15 / p 2 / p" | expect 6
+python3 rpn.py "90 15 / p 2 / p" | expect 3
+python3 rpn.py "104 5 / p" | expect 20
+
 print "okay"
