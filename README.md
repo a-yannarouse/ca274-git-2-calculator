@@ -66,3 +66,16 @@ This also repo contains a branch `rpn-multiply` which implements the multiplicat
 Merge that branch into `master` and make sure all of the tests (`test.zsh`) are working.
 
 You should expect to encounter merge conflicts.
+
+## Task 4
+
+Repeat the same thing for the division operator, `/`.
+
+The implementation for the division operator, however, is in a branch named `rpn-division`
+in this remote repository:
+
+- https://gitlab.computing.dcu.ie/sblott/ca274-git-2-calculator-division
+
+You will have to add that repository as a new remote, fetch it, and merge its `rpn-division` branch.
+
+Again, there will be merge conflicts (but they will be very similar to the previous conflicts).
