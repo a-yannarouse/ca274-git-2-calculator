@@ -61,7 +61,7 @@ Merge that branch into `master` and make sure all of the tests (`test.zsh`) are 
 
 ## Task 3
 
-This also repo contains a branch `rpn-multiply` which implements the multiplication operator, `*`.
+This repo also contains a branch `rpn-multiply` which implements the multiplication operator, `*`.
 
 Merge that branch into `master` and make sure all of the tests (`test.zsh`) are working.
 
