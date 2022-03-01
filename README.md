@@ -20,7 +20,7 @@ calculator, and running the test script.
 
 ## Notes
 
-For this task, only the contents of the `master` branch matter (so, all of your updates will be made
+For your submitted work, only the contents of the `master` branch matter (so, all of your updates will be made
 to the `master` branch).
 
 When you are done, push your `master` branch back to GitLab; I (SB) will collect your work from there.
