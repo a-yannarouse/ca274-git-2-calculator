@@ -65,7 +65,8 @@ This repo also contains a branch `rpn-multiply` which implements the multiplicat
 
 Merge that branch into `master` and make sure all of the tests (`test.zsh`) are working.
 
-You should expect to encounter merge conflicts.
+You should expect to encounter merge conflicts.  Fix the merge conflict and make sure that the test script
+passes.
 
 ## Task 4
 
