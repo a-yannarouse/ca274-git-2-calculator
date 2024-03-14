@@ -3,10 +3,13 @@
 import sys
 import rpn_add
 HEAD
+HEAD
 import rpn_subtract
 
 import rpn_multiply
 origin/rpn-multiply
+import rpn_divide
+rpn-division/rpn-division
 
 stack = []
 
@@ -22,7 +25,7 @@ def evaluate(text):
          a = try_pop()
          b = try_pop()
          stack.append(rpn_add.add(a, b))
-
+HEAD
       elif token == "-":
          b = try_pop()
          a = try_pop()
@@ -33,6 +36,11 @@ def evaluate(text):
          b = try_pop()
          stack.append(rpn_multiply.multiply(a, b))
 origin/rpn-multiply
+      elif token == "/":
+         b = try_pop()
+         a = try_pop()
+         stack.append(rpn_divide.divide(a, b))
+rpn-division/rpn-division
 
       elif token == "p":
          v = try_pop()

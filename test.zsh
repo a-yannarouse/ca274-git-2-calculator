@@ -73,5 +73,8 @@ HEAD
 python3 rpn.py "7 8 * p" | expect 56
 python3 rpn.py "7 8 * 1 + 2 * p" | expect 114
 origin/rpn-multiply
+python3 rpn.py "90 15 / p 2 / p" | expect 6
+python3 rpn.py "90 15 / p 2 / p" | expect 3
+python3 rpn.py "104 5 / p" | expect 20
 
 print "okay"
