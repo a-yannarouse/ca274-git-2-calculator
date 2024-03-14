@@ -63,8 +63,15 @@ python3 rpn.py <<EOF | expect 55
 + + + + + + + + + p
 EOF
 
+HEAD
 # ###########################################################################
 # Done (okay).
 #
+# ################################################################
+# Multiplication.
+
+python3 rpn.py "7 8 * p" | expect 56
+python3 rpn.py "7 8 * 1 + 2 * p" | expect 114
+origin/rpn-multiply
 
 print "okay"

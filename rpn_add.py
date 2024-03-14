@@ -6,7 +6,4 @@
 #
 
 def add(a, b):
-   # The expression below contains an obvious error.  Fix the error and
-   # remove this comment.
-   #
-   return a + b + 1
+   return a + b
